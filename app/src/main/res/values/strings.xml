@@ -1,0 +1,44 @@
+<resources>
+    <string name="toolbar_information_title">Rules</string>
+    <string name="alert_dialog_title">Rules</string>
+    <string name="alert_dialog_content">
+        Thirty is a dice game not entirely different from Yatzy where you roll six dice in rounds.\n\nAt each turn, the player can choose which dice he wants to keep and re-roll the dice he wants two times. After the three rolls, the points for the dice are calculated.\n\nThe player has 10 choices on how he can calculate the current round\'s points.\nLOW - Counts the dots of all the current dice that has a value of 3 or lower.\nSum of 4 - Counts all the dice which combined gives a sum of 4.\nSum of 5 - Counts all the dice which combined gives a sum of 5 etc.\nAfter a choice has been made it can\'t be chosen again for the rest of the game\n\nA game then consists of 10 such rounds. We will thus make a total of a maximum of 30 throws, hence the name of the game.
+    </string>
+    <string name="alert_dialog_positive_button">Continue</string>
+
+    <string name="app_name">ThirtyGame</string>
+    <string name="throw_button">Throw</string>
+    <string name="throw_text_view">Throw: 0 out of 3</string>
+    <string name="round_text_view">Round: 0 out of 10</string>
+    <string name="end_round_button">End Round</string>
+    <string name="end_game_button">End Game</string>
+    <string name="score_text_view">Score: 0</string>
+
+    <string name="new_game_button">New Game</string>
+    <string name="choice_label_text_view">Choice</string>
+    <string name="score_label_text_view">Score</string>
+    <string name="low_text_view">LOW:</string>
+    <string name="sum4_text_view">Sum of 4:</string>
+    <string name="sum5_text_view">Sum of 5:</string>
+    <string name="sum6_text_view">Sum of 6:</string>
+    <string name="sum7_text_view">Sum of 7:</string>
+    <string name="sum8_text_view">Sum of 8:</string>
+    <string name="sum9_text_view">Sum of 9:</string>
+    <string name="sum10_text_view">Sum of 10:</string>
+    <string name="sum11_text_view">Sum of 11:</string>
+    <string name="sum12_text_view">Sum of 12:</string>
+    <string name="total_score_text_view">Total score: </string>
+
+    <string-array name="scoring_spinner">
+        <item>LOW</item>
+        <item>Sum of 4</item>
+        <item>Sum of 5</item>
+        <item>Sum of 6</item>
+        <item>Sum of 7</item>
+        <item>Sum of 8</item>
+        <item>Sum of 9</item>
+        <item>Sum of 10</item>
+        <item>Sum of 11</item>
+        <item>Sum of 12</item>
+    </string-array>
+</resources>
